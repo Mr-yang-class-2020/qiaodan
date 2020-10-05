@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+		*{
+			margin:0;
+			padding:0;}
+		li{
+			list-style:none;}
+		a{
+			text-decoration:none;}
+
+		.div_box{
+			width:500px;
+			height:30px;
+			margin:18px 250px 0;
+			border-bottom:3px solid #cc0001;
+		
+			}
+		.div_box ul li{
+			float:left;
+			padding:0 15px;
+			line-height:32px;
+			}
+		.div_box ul .li1{
+			background-color:#cc0001;
+			border-radius:5px;
+			}
+		.div_box ul li a{
+			color:black;
+			}
+		.div_box ul li .active{
+			color:white;
+			}
+		.div_box ul li:hover{
+			background-color:#cc0001;
+			border-radius:5px;
+			}
+		.divL{
+			width:500px;
+			margin:0 250px 0;
+			/* border:1px solid red; */
+		
+			
+			}
+		.divL ul{
+			width:250px;
+			
+			background-color:#fcf3ea;
+			border-left:3px solid #ffb988;
+			border-right:3px solid #ffb988;
+			
+			}	
+		.divL li{
+			line-height:40px;
+			padding:0 30px;
+			}
+		.divL ul h3{
+			color:#b50005;
+			line-height:40px;
+			padding:0 10px;
+			background-color:#fcdcad;
+			
+			}
+		
+  </style>
+ </head>
+ <body>
+  		<div class="div_box">	
+		
+				<ul>
+					<li class="li1"><a href="#" class="active">首页</a></li>
+					<li><a href="#">促销专区</a></li>
+					<li><a href="#">团购</a></li>
+					<li><a href="#">限时抢购</a></li>
+					<li><a href="#">套购专区</a></li>
+					<li><a href="#">排行榜</a></li>
+				</ul>
+		</div>
+		<div class="divL">
+				<ul>
+					<h3>全部商品分类</h3>
+					<li><span><img src="./images/国美_01.png"></span> 家居/日用&nbsp; &nbsp; &nbsp;<font size="" color="red">拒绝虚假</font></li><hr/>
+					<li><span><img src="./images/国美_02.png"></span>手机数码 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<font size="" color="blue">MID疯抢</font></li>
+				</ul>
+		</div>
+ </body>
+</html>
