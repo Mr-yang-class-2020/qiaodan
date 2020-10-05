@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+<style>
+	*{
+		margin:0;
+		padding:0;}
+	li{
+		list-style:none;}
+	a{
+		text-decoration:none;}
+	
+
+
+	div#nav_box{
+		width:950px;
+		height:30px;
+	
+
+		display:block;
+		margin:10px auto;
+		}
+	div#nav_box .nav li{
+		float:left;
+		line-height:30px;
+		padding:0 18px;
+		position:relative;
+		}
+
+	div#nav_box .nav li.fx{
+			padding-right:50px;
+			background:red;
+			}
+
+	div#nav_box .nav li.bj{
+			padding-right:50px;
+			background:blue;
+			
+			}
+	div#nav_box .nav li.yh{
+			padding-right:50px;
+			background:green;
+			}
+	div#nav_box .nav li .tp{
+			display:block;
+			position:absolute;
+			right:3px;
+			top:-12px;
+			}
+
+
+
+	div#nav_box .nav li a:active{
+				color:yellow;
+			}
+</style>
+
+ </head>
+ <body>
+	<div id="nav_box">
+		<ul class="nav">
+			<li class="fx">
+				<a href="http://www.baidu.com"style="color:white;">发现
+					<img src="./images/02.png"></a></li>
+			<li class="bj">
+				<a href="#" style="color:white;">比较
+					<img src="./images/02.png"></a></li>
+			<li class="yh">
+				<a href="#"style="color:white;">优惠</a></li>
+			<li class="">
+				<a href="#">一淘专享
+				<span class='tp'><img src="./images/01.png"></span></a></li>
+			<li class=""><a href="#">促销活动</a></li>
+			<li class=""><a href="#">优惠卷</a></li>
+			<li class=""><a href="#">积分</a></li>
+			<li class=""><a href="#">团购</a></li>
+			<li class=""><a href="#">返利</a></li>
+			<li class=""><a href="#">海涛</a></li>
+			<li class=""><a href="#">淘吧</a></li>
+		</ul>
+	</div>
+ </body>
+</html>

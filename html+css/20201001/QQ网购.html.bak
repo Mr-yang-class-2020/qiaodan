@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	*{
+		margin:0;
+		padding:0;
+		}
+	a{text-decoration:none;
+		}
+	li{list-style:none;}
+
+
+	
+
+	.nav{
+		width:1000px;
+		height:40px;
+		border:1px solid red;
+		margin:20px auto;
+		}
+	.nav ul li{
+		float:left;
+		line-height:10px;
+		padding:15px;
+		display:block;
+		position:relative;
+		}
+
+	.nav ul .blue{
+			width:0px;
+			height:0px;
+			border:5px solid transparent;
+			border-left-color:blue;
+			position:absolute;
+			left:0;
+			top:15px;
+
+			}
+  </style>
+ </head>
+ <body>
+  <nav class="nav">
+	<ul class="ul fl">
+		<li class="" style="background:#317ee8;"><a href="">电器</a></li>
+		<li class="" style="background:#4799eb;"><a href="">手机</a>
+			<div class="blue"></div>
+		</li>
+		<li class="" style="background:#4799eb;"><a href="">电脑</a></li>
+		<li class="" style="background:#4799eb;"><a href="">家电</a></li>
+		<li class="" style="background:#7fb902;"><a href="">鞋靴运动</a></li>
+		<li class=""style="background:#e6a501;"><a href="">图书音像</a></li>
+		<li class=""style="background:#fc8409;"><a href="">珠宝饰品</a></li>
+		<li class=""style="background:#f35d1e;"><a href="">超市</a></li>
+		<li class=""style="background:#f44f7a;"><a href="">美妆</a></li>
+		<li class=""style="background:#c75eb0;"><a href="">箱包</a></li>
+		<li class=""style="background:#995dbf;"><a href="">服装</a></li>
+		<li class=""style="background:#7871fb;"><a href="">充值</a></li>
+		<li class=""style="background:#7871fb;"><a href="">票务</a></li>
+		<li class=""style="background:#7871fb;"><a href="">旅游</a></li>
+	</ul>
+  </nav>
+ </body>
+</html>

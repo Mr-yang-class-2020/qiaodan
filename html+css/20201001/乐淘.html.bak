@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	li{list-style:none;}
+	a{text-decoration:none;}
+
+	.div_box{
+		width:1000px;
+		height:40px;
+		background-color:#0a0a0a;
+		margin:10px auto;
+		
+		}
+	.div_box ul li{
+		float:left;
+		padding:0 20px;
+		line-height:40px;
+		border-left:1px solid white;
+		border-right:1px solid white;
+		display:block;
+		position:relative;
+		} 
+	.div_box ul li span{
+		position:absolute;
+		top:0;
+		left:0;
+
+		}
+	.div_box ul li a{
+		color:white;
+		}
+	
+  </style>
+ </head>
+ <body>
+	<div class="div_box">
+		<ul class="">
+			<li><a href="">首页</a></li>
+			<li><a href="">女鞋</a><span><img src="./images/乐淘_01.png"></span></li>
+			<li><a href="">男鞋</a><span><img src="./images/乐淘_01.png"></span></li>
+			<li><a href="">运动鞋</a><span><img src="./images/乐淘_01.png"></span></li>
+			<li><a href="">户外鞋</a><span><img src="./images/乐淘_01.png"></span></li>
+			<li><a href="">童鞋</a><span><img src="./images/乐淘_01.png"></span></li>
+			<li><a href="">品牌大全</a><span><img src="./images/乐淘_01.png"></span></li>
+		</ul>
+	</div>
+ </body>
+</html>

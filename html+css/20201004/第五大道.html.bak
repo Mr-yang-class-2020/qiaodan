@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<style>
+		*{padding:0;
+		margin:0;
+			}
+		li{list-style:none;}
+		a{text-decoration:none;}
+
+		.div_box{
+			width:1000px;
+			height:50px;
+			border-top:2px solid black;
+			border-bottom:1px solid black;
+			margin:10px auto;
+			position:fixed;
+			
+			}
+		.div_box ul li a{
+			color:black;
+			}
+		.div_box ul li{
+			
+			float:left;
+			display:block;
+			line-height:26px;
+			padding:0 2px;
+			position:relative;
+			
+			}
+		.div_box ul .li1{
+			background-color:#1d1d1d;
+			}
+
+		.div_box ul .li1 a{
+			color:white;
+			}
+		.div_box ul .li1 {
+			color:white;
+			}
+		.div_box ul .li2{
+			color:red;
+			}
+		.div_box ul .li2 a{
+			color:red;
+			}
+		.div_box ul img{
+			position:absolute;
+			top:10px;
+			right:0;
+			}
+	</style>
+	
+ </head>
+ <body>
+	<div class="div_box">
+		<ul class="">
+			<li class=""><a href='#'>首页</a></br><span>Home</span><span><img src=""></span><img src='./images/第五大道_01.png'></li>
+			<li class="li1" style=""><a href='#'>最新上架</a></br><span>new arrival</span><img src='./images/第五大道_01.png'> </li>
+			<li class=""><a href='#'>所有品牌</a></br><span>all brands</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>箱包 </a></br><span>handbags</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>化妆品</a></br><span>cosmetic</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>钟表 </a></br><span>watches</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>饰品</a></br><span>accessories</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>服装鞋帽</a></br><span>clothing/shoes</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>男士</a></br><span>men</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>名酒</a></br><span>wine</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>家居电子</a></br><span>electronics</span><img src='./images/第五大道_01.png'></li>
+			<li class="li2"><a href='#'>专场促销</a></br><span>promotion</span><img src='./images/第五大道_01.png'></li>
+			<li class=""><a href='#'>体验店</a></br><span>show room</span><img src='./images/第五大道_01.png'></li>
+		</ul>
+	</div>
+
+ </body>
+</html>

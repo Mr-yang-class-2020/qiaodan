@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		li{
+			list-style:none;
+		}
+		a{text-decoration:none;}
+		.fl{float:left;}
+		.fr{float:right;}
+
+
+		.div_box{
+			width:1000px;
+			height:40px;
+			margin:20px auto 5px;
+			/* border:1px solid red; */
+			background-color:#e40e04;
+		}
+		.div_box .div{
+			margin:10px;
+			color:white;
+			}
+		.div_box  ul li {
+			float:left;
+			line-height:40px;
+			padding:0 25px;	
+			display:block;
+			position:relative;
+
+		}
+		.div_box  ul li span{
+			display:block;
+			position:absolute;
+			top:5px;
+			left:0;
+			}
+		.div_box  ul li a{
+			color:white;
+			}
+		.div_box ul .li1{
+			background-color:#ac0a07;
+			
+			} 
+		.div_box  ul li:hover{
+			background-color:#ac0a07;
+			}
+
+		.box{
+			width:1000px;
+			
+		/* 	border:1px solid black; */
+			margin:0px auto 30px;
+			
+			}
+		.box ul.er{
+			width:130px;
+			border-right:2px solid #d1bda5;
+			border-left:2px solid #d1bda5;
+			line-height:40px;
+			background-color:#f8eee2;
+			}
+		.box ul li a{
+			padding:10px;
+			margin:10px;
+			}
+	</style>
+ </head>
+ <body>
+	<div class="div_box">
+		<div class="fl div">全部分类和品牌</div>
+		<ul class="ul fl">
+			<li class="li1"><a href="#">首页</a></li>
+			<li><a href="#">团购</a><span><img src="./images/QQ商城_01.png"></span></li>
+			<li><a href="#">抢购</a></li>
+			<li><a href="#">包邮</a></li>
+			<li><a href="#">特卖会</a></li>
+			<li><a href="#">新店</a><span><img src="./images/QQ商城_01.png"></span></li>
+			<li><a href="#">排行榜</a><span></li>
+			<li><a href="#">优惠劵</a><span><img src="./images/QQ商城_01.png"></span></li>
+			<li><a href="#">主题导购</a><span><img src="./images/QQ商城_01.png"></span></li>
+		</ul>
+	</div>
+	<div class="box">
+		<ul class="er">
+			<li><a>美容美妆</a><span><img src="./images/QQ商城_02.png"></span></li>
+			<li><a>品牌男装</a><span><img src="./images/QQ商城_02.png"></span></li>
+		</ul>
+	</div>
+ </body>
+</html>

@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+  <style>
+	*{
+		margin:0;
+		padding:0;
+	}
+	li{list-style:none;}
+	a{text-decoration:none;}
+	
+
+	.div_box{
+		width:1000px;
+		height:40px;
+		background-color:#fc4a02;
+		margin:10px auto;
+		line-height:40px;
+
+		}
+	
+	.div_box ul li{
+
+		width:100px;
+		float:left;
+		padding:0 20px;
+		background-image:url(images/新浪_01.png);
+		background-repeat:no-repeat;
+		background-position:right;
+		position:relative;
+		display:block;
+		}
+	.div_box ul .li1 a{
+		color:#f35c2f;
+		}
+	.div_box ul li a{
+		color:white;
+		}
+	.div_box ul .li1{
+		background-color:#fffebb;
+
+		}
+	
+	.div_box ul span{
+		position:absolute;
+		top:-2px;
+		right:10px;
+		}
+	.div_box ul li:hover{
+		background-color:#fffebb;
+		}
+
+  </style>
+ </head>
+ <body>
+  <div class="div_box">
+	<ul class="">
+		<li class="li1"><a href="">首页<a></li>
+		<li><a href="">乐购商购<a><span><img src="./images/新浪_02.png"></span></li>
+		<li><a href="">导购<a></li>
+		<li><a href="">换礼<a></li>
+	</ul>
+  </div>
+ </body>
+</html>

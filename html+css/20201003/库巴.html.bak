@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>Document</title>
+	<style>
+		*{
+			margin:0;
+			padding:0;
+		}
+		li{
+			list-style:none;
+		}
+		a{text-decoration:none;}
+		.fl{float:left;}
+		.fr{float:right;}
+
+
+		.div_box{
+			width:1000px;
+			height:40px;
+			margin:20px auto 0px;
+			/* border:1px solid red; */
+			background-color:#fd8402;
+			border-radius:5px;
+		}
+		.div_box .div{
+			width:180px;
+			margin:10px;
+			color:white;
+			}
+		.div_box  ul li {
+			float:left;
+			line-height:40px;
+			padding:0 32px;	
+			display:block;
+			position:relative;
+			border-right:1px solid white;
+		}
+		.div_box  ul li span{
+			display:block;
+			position:absolute;
+			top:5px;
+			left:0;
+			}
+		.div_box  ul li a{
+			color:white;
+			}
+		.div_box ul .li1{
+			background-color:#7f2618;
+			
+			} 
+		.div_box  ul li:hover{
+			background-color:#7f2618;
+			}
+
+		.box{
+			width:1000px;
+	
+		/* 	border:1px solid black; */
+			margin:0 auto 30px;
+			}
+		.box ul.er{
+			width:196px;
+			height:100%;
+			border-right:3px solid #ff8604;
+			border-left:2px solid #ff8604;
+			line-height:30px;
+			background-color:#fffcf7;
+			
+			}
+		.box ul li{
+			display:block;
+			position:relative;
+			}
+		.box ul li a{
+			margin:10px auto;
+			padding:10px;
+			
+			}
+		.box ul li span{
+				position:absolute;
+				top:0;
+				right:10px;
+		}
+	</style>
+ </head>
+ <body>
+	<div class="div_box">
+		<div class="fl div">全部分类和品牌</div>
+		<ul class="ul fl">
+			<li class="li1"><a href="#">首页</a></li>
+			<li><a href="#">抢购</a></li>
+			<li><a href="#">团购</a></li>
+			<li><a href="#">城市专区</a></li>
+			<li><a href="#">节能产品</a></li>
+		</ul>
+	</div>
+	<div class="box">
+		<ul class="er">
+			<li><a>大家电</a><span><img src="./images/库巴_01.png"></span></li>
+			<li><a>手机、数码</a><span><img src="./images/库巴_01.png"></span></li>
+		</ul>
+	</div>
+ </body>
+</html>
